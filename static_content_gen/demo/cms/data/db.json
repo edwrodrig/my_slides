@@ -1,0 +1,30 @@
+{
+	"title" : "Mi super página",
+	"charas" : [
+		{
+			"id" : "zealot",
+			"name" : "Protoss Zealot",
+			"game" : "Starcraft",
+			"desc" : "Zealots are lower-ranked Templar who have yet to reach the upper levels of the Khala.[1] They form the backbone of the protoss military,[2] and have been utilized since before the Discord.[3] At least some, if not all Khalai zealots are members of the Zealot Order. Zealots honor the moon Saalok as their order's symbol, which they call the Zealous Round.[4] Zealots can operate in platoons[5] and legions.[6] The Tal'darim also employ zealots.[7][8] As the lowest ranking links in the Chain of Ascension, they are the ones most eager to prove themselves."
+		},
+		{
+			"id" : "dva",
+			"name" : "D.va",
+			"game" : "Overwatch",
+			"desc" : "D.Va is a fictional player character who appears in the 2016 video game Overwatch—a first-person shooter developed by Blizzard Entertainment—and related animations and literary media. She has also appeared as a character in Blizzard's crossover title Heroes of the Storm, and as a gameplay announcer in StarCraft II: Legacy of the Void. In the English media, she is voiced by Charlet Chung. In Overwatch lore, D.Va is a pro eSports gamer named Hana Song (송하나) from Busan, South Korea. Within the Overwatch narrative, she and other gamers were recruited by the Korean government's Mobile Exo-Force of the Korean Army (MEKA) to help quell the robotic Omnic uprising, translating their video game-playing skills over into controlling weaponized mech suits. Within the game, D.Va is a Tank character, able to deal a stream of damage and nullify incoming attacks for a short time. If D.Va's suit is destroyed, she can eject from it and stay alive long enough to call in a new suit. Her ultimate ability allows her to self-detonate her suit, dealing heavy damage to all enemies in line of sight, sufficient to eliminate most characters in one blow. D.Va has been well received by critics and players, and she has been seen as a positive female model for younger gamers. "
+		},
+		{
+			"id" : "zero",
+			"name" : "Zero",
+			"game" : "Megaman X",
+			"desc" : "Zero (ゼロ) es un personaje de ficción perteneciente al universo de Mega Man, siendo uno de los tres protagonistas de Mega Man X y el protagonista de Mega Man Zero. En las series Mega Man X es uno de los Maverick Hunters con mayor rango (siendo estos A y S, siendo la última la mayor) junto con Mega Man X y Axl para detener a los reploides malvados conocidos como Mavericks, la mayoría, liderados por Sigma, el villano recurrente. Se debe hacer énfasis en que él no es un reploid, ya que estos son los robots diseñados sobre la base de X y él es un modelo original al igual que X, así que es un Androide. Al principio, Keiji Inafune, el creador de Mega Man y actual Presidente de Capcom, había admitido que había creado a Zero para que fuera el mismo Mega Man X, para remplazar a Mega Man, pero decidió crear a X, debido a que a los jugadores les encontraría difícil reconocer un parentesco entre Mega Man y el nuevo Mega Man X debido a la gran diferencia de diseño, así que mejor convirtió a Zero en compañero y en ciertas oportunidades protector de X. Nueve años después, Zero tendría su propio rol protagónico en Mega Man Zero, serie disponible para Gameboy Advance y posteriormente un compilado para Nintendo DS. Cuando Zero fue integrado en Mega Man X, era una extensión de los poderes de X, ya que poseía una versión más poderosa del X buster, llamado el Z buster y varias habilidades que X no tenía desde su diseño original (por ejemplo la habilidad de Dash), además, de que su diseño rebelde y rojo, contrastaba con el sencillo y azul X. Hasta el Mega Man X3, Zero era un personaje con el cual no se podía jugar, y sólo aparecía para ayudar a X en ciertas ocasiones, pero sólo como parte de la historia. Cuando se integró, se trató de que fuera una diferente experiencia de juego alternativa a X, a pesar de que en el Mega Man X3 sólo podía jugar ciertas partes en las misiones, y si perdía una vida se volvía inutilizable por el resto del juego. Ya en el Mega Man X4, donde se hizo plenamente jugable, se vio la real diferencia de jugabilidad entre X y Zero, mientras que X usaba poderosos ataques a larga distancia, Zero ganó una poderosa arma de corta distancia, la Z saber, que era una espada láser."
+		},
+		{
+			"id" : "keydash",
+			"name" : "K'",
+			"game" : "King of Fighters",
+			"desc" :"K' (ケイ・ダッシュ Kei Dasshu?, pronunciado en inglés Kay Dash o Kay Prime, debido al símbolo en su nombre) es uno de los personajes principales de la serie de videojuegos The King of Fighters de SNK Playmore. Es un personaje icónico de la serie y aparece regularmente en material publicitario y mercancías de la marca. También es protagonista en la saga de NESTS en la franquicia. Su voz es doblada por el actor japonés Yuuki Matsuda. Además de la serie principal de KOF, K' aparece en muchos otros medios como spin-offs (juegos con una historia diferente a la principal), crossovers (juegos donde se combinan personajes de juegos de diferentes marcas), así como en adaptaciones a comics, mangas y anime basados en el juego. Los críticos han elogiado el diseño del personaje y su estilo de pelea como uno de los mejores de la serie. Destacaron además que K' era un personaje muy necesario en cada juego de la serie además de comentar que tiene la mejor pose de victoria. Una gran variedad de mercancías basadas en K' han sido creadas como son llaveros y figuras de acción."
+		}
+
+	]
+}

@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2><small>Generación de sitios web de</small><br>contenidos estáticos</h2>
+					<p>
+						<br/>
+						<small>Edwin Rodriguez León</small><br/>
+						<small><a href="http://www.edwin.cl">www.edwin.cl</a></small>
+					</p>
+				</section>
+				<section>
+					<h2>Edwin Rodríguez León</h2>
+					<ul>
+						<li>Ingeniero Bioinformático @ <a href="http://profc.udec.cl">UDEC</a></li>
+						<li>Ingeniero de Desarrollo @ <a href="http://latam.com">Lan Airlines</a></li>
+						<li>Ingeniero Informático @ <a href="http://es.imo-chile.cl">IMO</a></li>
+					</ul>
+				</section>
+				<section>
+					<div style="display:flex">
+						<div style="flex: 1">
+							<h3>Me gusta</h3>
+							<ul class="fragment">
+								<li>C++</li>
+								<li>PHP</li>
+								<li>Control</li>
+								<li>Bibliotecas</li>
+							</ul>
+						</div>
+						<div style="flex: 1">
+							<h3 class="fragment" style="color:red">NO me gusta</h3>
+							<ul class="fragment">
+								<li>Javascript</li>
+								<li>Overhead</li>
+								<li>Deuda técnica</li>
+								<li>Frameworks</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3 style="color:red">Detesto el desarrollo web</h3>
+				</section>
+				<section>
+					<h3>Complejidades del desarrollo web</h3>
+					<ul>
+						<li>Infraestructura</li>
+						<li>Lenguajes (HTML, CSS, Javascript)</li>
+						<li>Compatibilidad de navegadores y dispositivos</li>
+						<li>Estética</li>
+						<li>Seguridad</li>
+						<li>SEO</li>
+					</ul>
+				</section>
+				<section>
+					<p>No me gusta pero no puedo escapar</p>
+					<h2 class="fragment">Tengo que lidiar</h2>
+				</section>
+				<section>
+					<h1>KISS</h1>
+					<p class="fragment">Keep it simple, stupid</p>
+				</section>
+				<section>
+					<section>
+						<h1>Caso simple</h1>
+						<img src="simple_arq.svg">
+					</section>
+                                	<section>
+                                        	<h1>Caso común</h1>
+	                                        <img src="complex_arq.svg">
+        	                        </section>
+                	                <section>
+                        	                <h1>Caso simplificado</h1>
+                                	        <img src="cms_arq.svg">
+	                                </section>
+					<section>
+						<h1>Ejemplo en vivo</h1>
+					</section>
+				</section>
+				<section>
+                                        <div style="display:flex">
+                                                <div style="flex: 1">
+                                                        <h3>Caso simple</h3>
+                                                        <ul class="fragment">
+                                                                <li>Mucha repetición de código</li>
+                                                                <li>Dificultad en cambios</li>
+                                                                <li>Nula capacidad de encapsular bloques de código</li>
+                                                        </ul>
+                                                </div>
+                                                <div style="flex: 1">
+                                                        <h3 class="fragment">Caso común</h3>
+                                                        <ul class="fragment">
+                                                                <li>Infraestructura más compleja</li>
+                                                                <li>Vulnerabilidad</li>
+								<li>Tendencia a especializarse en herramientas</li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+				</section>
+				<section>
+					<h4>¿Existe una alternativa?</h4>
+					<h3 class="fragment">Generación de contenido estático</h3>
+				</section>
+				<section>
+					<h2>¿Que es el contenido estático?</h2>
+					<p>Es aquel contenido que no cambia o que no depende de otras cosas.</p>
+					<p>Por el contrario, el <span class="fragment highlight-green">contenido dinámico</span> que depende de variables como el tiempo o input provisto por usuario, etc<p>
+				</section>
+				<section>
+					<h2>Ejemplos</h2>
+                                        <div style="display:flex">
+                                                <div style="flex: 1">
+                                                        <h3>Estático</h3>
+                                                        <ul class="fragment">
+                                                                <li>Imágenes</li>
+                                                                <li>Codigo html, javascript, css</li>
+                                                                <li>Archivos</li>
+                                                        </ul>
+                                                </div>
+                                                <div style="flex: 1">
+                                                        <h3>Dinámico</h3>
+                                                        <ul class="fragment">
+                                                                <li>Likes, comentarios</li>
+                                                                <li>Respuestas de formularios</li>
+                                                                <li>Chats</li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+				</section>
+				<section>
+	                                <h1>Caso común</h1>
+                                        <img src="complex_arq.svg">
+				</section>
+				<section>
+                                        <h2>Caso generación estática</h2>
+                                        <img src="static_gen_arq.svg">
+                                </section>
+				<section>
+					<h1>Ejemplo en vivo</h1>
+				</section>
+				<section>
+					<h2>Opciones</h2>
+					<ul>
+						<li>Jekyll</li>
+						<li>Metalsmith</li>
+						<li>WordPress Static Generator</li>
+						<li><a href="https://www.staticgen.com/" target="_blank">StaticGen.com</a></li>
+						<li><a href="https://github.com/edwrodrig/static_generator" target="_blank">Mi biblioteca</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2>¿Y si necesito contenido dinámico?</h2>
+					<img class="fragment" src="ws_static_gen_arq.svg">
+				</section>
+				<section>
+					<h2>Simple y gratis</h2>
+					<img class="fragment" src="free_arq.svg">
+				</section>
+				<section>
+					<h1>Gracias</h1>
+					<h3>¿Preguntas?</h3>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
